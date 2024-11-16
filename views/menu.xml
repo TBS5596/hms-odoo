@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem name="HMS" sequence="0" id="menu_hospital_root" web_icon="hms,static/description/hospital.png"/>
+
+    <menuitem name="Patients" sequence="10" id="menu_patient" parent="menu_hospital_root" action="action_hms_patient"/>
+    <menuitem name="Appointments" sequence="20" id="menu_appointments" parent="menu_hospital_root" action="action_hms_appointment"/>
+</odoo>
